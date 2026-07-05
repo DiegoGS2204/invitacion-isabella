@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis XV Isabella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="phone-frame">
+
+    <section class="canva-page">
+      <img src="img/1.png" alt="Portada Mis XV Isabella" class="page-img" />
+    </section>
+
+    <section class="canva-page">
+      <img src="img/2.png" alt="Invitación" class="page-img" />
+    </section>
+
+    <section class="canva-page timer-page">
+      <img src="img/3_clean.png" alt="Cuenta regresiva y lugar de la ceremonia" class="page-img" />
+
+      <!-- Este bloque tapa los ceros del diseño de Canva y pone el contador real. -->
+      <div class="timer-mask" aria-label="Cuenta regresiva para la fiesta">
+        <div class="countdown-grid">
+          <div class="count-item">
+            <span id="dias">000</span>
+            <small>Días</small>
+          </div>
+          <div class="count-item">
+            <span id="horas">00</span>
+            <small>Horas</small>
+          </div>
+          <div class="count-item">
+            <span id="minutos">00</span>
+            <small>Minutos</small>
+          </div>
+          <div class="count-item">
+            <span id="segundos">00</span>
+            <small>Segundos</small>
+          </div>
+        </div>
+        <p>para mis xv años</p>
+      </div>
+    </section>
+
+    <section class="canva-page">
+      <img src="img/4.png" alt="Ceremonia religiosa" class="page-img" />
+      <a class="hotspot mapa-ceremonia" href="#" data-link="ceremoniaMapa" target="_blank" rel="noopener" aria-label="Ver mapa de la ceremonia religiosa"></a>
+    </section>
+
+    <section class="canva-page">
+      <img src="img/5.png" alt="Recepción" class="page-img" />
+      <a class="hotspot mapa-recepcion" href="#" data-link="recepcionMapa" target="_blank" rel="noopener" aria-label="Ver mapa de la recepción"></a>
+    </section>
+
+    <section class="canva-page">
+      <img src="img/6.png" alt="Detalles de la celebración" class="page-img" />
+    </section>
+
+    <section class="canva-page">
+      <img src="img/7.png" alt="Comida, baile y código de vestimenta" class="page-img" />
+    </section>
+
+    <section class="canva-page regalos-page">
+      <img src="img/8.png" alt="Regalos y sugerencias" class="page-img" />
+      <a class="hotspot mesa-amazon" href="#" data-link="amazonMesa" target="_blank" rel="noopener" aria-label="Ver mesa de regalos Amazon"></a>
+
+      <div class="sugerencias-panel">
+        <h2>Sugerencias</h2>
+
+        <article class="accordion">
+          <button class="accordion-btn" type="button" aria-expanded="false">
+            <span class="arrow">⌄</span>
+            <span>Hospedaje</span>
+          </button>
+          <div class="accordion-content">
+            <h3>María Hotel Juchipila</h3>
+            <p>Justo Sierra #58, Colonia Centro, C.P. 99960, Juchipila, Zacatecas.</p>
+            <p>Teléfono: 467 107 2444</p>
+            <div class="mini-links">
+              <a href="#" data-link="hotelMapa" target="_blank" rel="noopener">Ver mapa</a>
+              <a href="#" data-link="hotelWeb" target="_blank" rel="noopener">Página web</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="accordion">
+          <button class="accordion-btn" type="button" aria-expanded="false">
+            <span class="arrow">⌄</span>
+            <span>Lugares Turísticos</span>
+          </button>
+          <div class="accordion-content lugares">
+            <a href="#" data-link="cerroVentanas" target="_blank" rel="noopener">Cerro de las Ventanas</a>
+            <a href="#" data-link="centroHistorico" target="_blank" rel="noopener">Centro Histórico de Juchipila</a>
+            <a href="#" data-link="deliciasTinoco" target="_blank" rel="noopener">Las Delicias de Tinoco</a>
+            <a href="#" data-link="mariscosNegro" target="_blank" rel="noopener">Mariscos El Negro</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="canva-page">
+      <img src="img/9.png" alt="Evento de fotos y videos" class="page-img" />
+      <a class="hotspot evento-fotos" href="#" data-link="eventoFotos" target="_blank" rel="noopener" aria-label="Ir al evento"></a>
+    </section>
+
+    <section class="canva-page">
+      <img src="img/10.png" alt="Galería de fotos" class="page-img" />
+    </section>
+
+    <section class="canva-page footer-page">
+      <img src="img/11.png" alt="Despedida" class="page-img" />
+    </section>
+
+  </main>
+
+  <div class="toast" id="toast">Este link todavía está pendiente.</div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
