@@ -28,6 +28,8 @@ const INVITACION_CONFIG = {
 
     deliciasTinoco: "https://www.google.com/maps/search/?api=1&query=Las%20Delicias%20de%20Tinoco%20Juchipila%20Zacatecas",
 
-    mariscosNegro: "https://www.google.com/maps/search/?api=1&query=Mariscos%20El%20Negro%20Juchipila%20Zacatecas"
+    mariscosNegro: "https://www.google.com/maps/search/?api=1&query=Mariscos%20El%20Negro%20Juchipila%20Zacatecas",
+
+    cenaduriaRosita: "https://www.facebook.com/reynaldo.ruvalcaba.202527",
   }
 };
